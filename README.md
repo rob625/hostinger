@@ -1,0 +1,2 @@
+# hostinger
+for automated deploy

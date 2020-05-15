@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>//vuejsexamples.net</title>
+    <!-- include vue -->
+    <script src="//unpkg.com/vue"></script>
+    <!-- axios -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      Posts:
+      <li v-for="post of posts">
+      <strong>{{post.title}}</strong>
+      {{post.body}}
+      </li>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
